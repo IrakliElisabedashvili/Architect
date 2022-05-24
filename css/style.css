@@ -1,0 +1,465 @@
+/* Fonts Start */
+@font-face{
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: OpenSansLight;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face{
+    font-family: OpenSansBold;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face{
+    font-family: OpenSansExtraBold;
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+}
+/* Fonts End */
+
+body{
+    background-image: url('../images/pixel_weave.png');
+}
+
+
+/* ***** Header Background Container Start ***** */
+#headerback{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    background-image: url('../images/pixel_weave.png');
+    border-bottom: 1px solid #D6D6D6;
+}
+
+/* Site Title Column Start */
+#sitetitle a{
+    font-family: OpenSans;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+#sitetitle a:hover{
+    text-decoration: none;
+}
+/* Site Title Column End */
+
+/* Navigation Column Start */
+#navtop{
+    background-color: transparent;
+    border: transparent;
+    margin-bottom: 0 !important;
+}
+
+#navigation ul li a{
+    font-family: OpenSans;
+    font-size: 18px;
+    color: black;
+    padding: 10px 15px;
+}
+/* Navigation Column End */
+
+/* ***** Header Background Container End ***** */
+
+
+/* ***** Carousel Container Start ***** */
+#carouselcontainer{
+    margin-top: 80px;
+}
+
+#myCarousel{
+    position: relative;
+}
+
+#myCarousel h4{
+    width: 60%;
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+    background: rgba(0,0,0,0.50);
+    position: absolute;
+    bottom: 60px;
+    left: 20%;
+}
+
+#myCarousel a.left.carousel-control{
+    display: none;
+}
+
+#myCarousel a.right.carousel-control{
+    display: none;
+}
+/* ***** Carousel Container End ***** */
+
+
+/* ***** Three Icon Container Start ***** */
+#threeiconcontainer{
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+/* Icon Div Start */
+.icondiv{
+    width: 100px;
+    height: 100px;
+    background-color: #4bbabe;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:20px;
+    padding-top: 20px;
+}
+
+.icondiv i{
+    font-size: 4em;
+    color: white;
+    transform: rotate(-45deg);
+}
+/* Icon Div End */
+
+#threeiconcontainer h2{
+    font-family: OpenSans;
+    font-size: 30px;
+    font-weight: 900;
+    color: #333;
+    margin-top: 40px;
+}
+
+#threeiconcontainer p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+/* Separator Column Start */
+#threeiconsecondrow{
+    margin-top: 30px;
+}
+
+#threeiconsecondrow p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #ff0000;
+    margin-bottom: 0;
+}
+/* Separator Column End */
+
+/* ***** Three Icon Container End ***** */
+
+
+/* ***** Projects Container Start ***** */
+#projectscontainer{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+#projectscontainer .col-sm-4:first-of-type{
+    background-color: #d9edf7;
+}
+
+#projectscontainer .col-sm-4:first-of-type h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 900;
+    color: #31708f;
+    margin: 10px 0;
+}
+
+#projectscontainer .col-sm-4:first-of-type p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #31708f;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+#projectscontainer h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 900;
+    color: #333;
+    margin: 10px 0;
+    clear: both;
+}
+
+#projectscontainer p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    clear: both;
+}
+
+#projectscontainer a{
+    float: right;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+    color: #9900ff;
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+#projectscontainer a:hover{
+    text-decoration: none;
+}
+
+/* Separator Column Start */
+#projectssecondrow p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #ff0000;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+/* Separator Column End */
+
+/* ***** Projects Container End ***** */
+
+
+/* ***** About Container Start ***** */
+#aboutcontainer{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+#aboutcontainer h2{
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 900;
+    color: #333;
+}
+
+#aboutcontainer p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+#aboutcontainer .col-sm-4:last-of-type{
+    background-color: #dff0d8;
+}
+
+#aboutcontainer .col-sm-4:last-of-type h2{
+    font-family: OpenSans;
+    font-size: 22px;
+    color: #3c763d;
+    padding-bottom: 10px;
+}
+
+#aboutcontainer .col-sm-4:last-of-type p{
+    color: #3c763d;
+}
+
+/* Separator Column Start */
+#aboutsecondrow p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #ff0000;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+/* Separator Column End */
+
+/* ***** About Container End ***** */
+
+
+/* ***** Contact Container Start ***** */
+#contactcontainer{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* *** Our Location Column Start *** */
+#ourlocation{
+    background-color: #f2dede;
+}
+
+#ourlocation h2{
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 900;
+    color: #a94442;
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+#ourlocation p{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #a94442;
+    line-height: 30px;
+    margin: 0;
+}
+/* *** Our Location Column End *** */
+
+/* ** Forms Row Start ** */
+#formsrow{
+    margin-top: 25px;
+}
+
+#formsrow input{
+    background-color: rgba(255,255,255,0);
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    color: #555;
+    border-radius: 4px;
+}
+
+#formsrow textarea{
+    width: 100%;
+    background-color: rgba(255,255,255,0);
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    color: #555;
+    border-radius: 4px;
+}
+
+#formsrow ::placeholder{
+    color: #555;
+}
+
+#formsrow input[type=submit]{
+    background-color: #d9534f;
+    border-color: #ac2925;
+    color:white;
+    transition: .8s ease-in;
+}
+
+#formsrow input[type=submit]:hover{
+    background-color: #d2322d;
+    border-color: #ac2925;
+}
+/* ** Forms Row End ** */
+
+/* ***** Contact Container End ***** */
+
+
+/* ***** Footer Start ***** */
+footer{
+    padding: 20px 0;
+    background-image: url('../images/pixel_weave.png');
+    border-top: 1px solid #d6d6d6;
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #333;
+}
+/* ***** Footer End ***** */
+
+
+@media only screen and (max-width:580px){
+    /* ***** Navigation Start ***** */
+
+    /* Site Title Column Start */
+    #sitetitle{
+        float: left;
+        padding-left: 0;
+    }
+
+    #sitetitle a{
+        padding-left: 0;
+    }
+    /* Site Title Column End */
+
+    /* Navigation Column Start */
+    #navigationbar{
+        padding: 0;
+    }
+
+    #navtoggle{
+        margin-top: 0;
+        margin-right: 0;
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    #navtoggle .icon-bar{
+        border: 1px solid white;
+    }
+
+    #navigation{
+        width: 100%;
+    }
+
+    #navigation ul{
+        border-top: 1px solid black;
+    }
+
+    /* Navigation Column End */
+
+    /* ***** Navigation End ***** */
+
+
+    /* ***** Carousel Start ***** */
+    #myCarousel{
+        border: 2px solid lightgrey;
+    }
+
+    #myCarousel h4{
+        width: 70%;
+        left: 15%;
+        bottom: 35px;
+    }
+    /* ***** Carousel End ***** */
+
+
+    /* ***** Three Icon Container Start ***** */
+    #threeiconcontainer .col-sm-4{
+        margin-bottom: 40px;
+    }
+    /* ***** Three Icon Container End ***** */
+
+
+    /* ***** Projects Container Start ***** */
+    #projectscontainer .col-sm-4{
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    /* ***** Projects Container End ***** */
+}
+
+
+@media only screen and (max-width:560px){
+    /* ***** Carousel Start ***** */
+    #myCarousel h4{
+        font-size: 16px;
+    }
+    /* ***** Carousel End ***** */
+}
+
+
+@media only screen and (max-width:420px){
+    /* ***** Carousel Start ***** */
+    #myCarousel h4{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* ***** Carousel End ***** */
+}
